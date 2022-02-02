@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header start */
+header {
+    /* background-color: lightgray; */
+    min-height: 100px;
+}
+
+.container {
+    background-color: lightgray;
+    width: 50%;
+    min-height: 50px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container1 {
+    /* background-color: lightgray; */
+    width: 50%;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.flexed-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+input {
+    background-color: white;
+    min-height: 30px;
+    flex: 2;
+    border: .2rem solid black;
+}
+
+.btn {
+    color: white;
+    min-height: 25px;
+    width: 65px;
+    background-color: lightblue;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.mb {
+    margin-bottom: 1.5rem;
+}
+
+/* header end */
+
+
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+/* main start */
+main {
+    /* background-color: purple; */
+    min-height: 100px;
+    flex: 2;
+    gap: 1.5rem;
+}
+
+.firstbox {
+    /* background-color: darkgreen; */
+    border: 2px solid black;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.secondbox {
+    /* background-color: burlywood; */
+    border: 2px solid black;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.btn2, .btn3 {
+    background-color: #ffd966;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    min-height: 25px;
+}
+/* main end */
+
+/* aside start */
+aside {
+    /* background-color: hotpink; */
+    min-height: 100px;
+    flex: 1;
+}
+
+.thirdbox {
+    border: 2px solid black;
+    min-height: 150px;
+    padding: 30px;
+}
+
+.btn4 {
+    min-height: 30px;
+    background-color: #92c47c;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+}
+
+.flexedlast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* aside end */
+
+
+
